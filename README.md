@@ -1,12 +1,59 @@
-# React + Vite
+# 🧢 Pokédex React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Pokédex**, a fun and interactive React application that lets you explore various Pokémon using the [PokéAPI](https://pokeapi.co/)! This project showcases how to fetch data from an API, display detailed cards, and implement a live search feature.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ⚡ Fetches and displays 124 Pokémon from the PokéAPI
+- 🔍 Real-time search functionality to filter Pokémon by name
+- 📦 Shows important details like:
+  - Pokémon name
+  - Image
+  - Height & weight
+  - Speed stats
+  - Description (flavor text from species API)
+- ✅ Error handling and loading states
+- 💅 Styled using CSS
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Preview
+
+![App Screenshot](screenshot.png) <!-- Replace with actual screenshot path if you have -->
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- JavaScript (ES6+)
+- HTML + CSS
+- PokéAPI
+
+---
+
+## 🧠 How It Works
+
+- The app uses the main PokéAPI endpoint to fetch a list of 124 Pokémon.
+- Then, for each Pokémon, it fetches detailed stats and images.
+- It also fetches species data for the Pokémon description (flavor text).
+- The user can search Pokémon by name, and results update in real-time.
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/pokedex-app.git
+
+# Go to the project directory
+cd pokedex-app
+
+# Install dependencies
+npm install
+
+# Start the app
+npm start
